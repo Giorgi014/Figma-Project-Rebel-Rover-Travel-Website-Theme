@@ -324,12 +324,57 @@ body{
 }
 .exotic-natural-scenery .image-container{
     width: 90%;
-    margin: 50px 138px;
+    margin: 50px 105px;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(3,auto);
+    gap: 0 30px;
 }
 .exotic-natural-scenery .image-container ul{
-    display: flex;
     list-style: none;
 }
-.exotic-natural-scenery .image-container a{
-    text-decoration: none;
+.exotic-natural-scenery .image-container .couple{
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.exotic-natural-scenery .image-container .couple:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgb(194, 194, 194);
+}
+.exotic-natural-scenery .image-container .bali{
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.exotic-natural-scenery .image-container .bali img{
+    border-radius: 0px 0px 10px 10px;
+}
+.exotic-natural-scenery .image-container .bali h2{
+    display: none;
+    margin: 25px 10px;
+    margin-bottom: 0;
+}
+.exotic-natural-scenery .image-container .bali h2:hover{
+    display: block;
+}
+.exotic-natural-scenery .image-container .bali p{
+    display: none;
+    margin: 5px 10px;
+}
+.exotic-natural-scenery .image-container .bali p:hover{
+    display: block;
+}
+.exotic-natural-scenery .image-container .bali:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgb(194, 194, 194);
+}
+.exotic-natural-scenery .image-container .newyork{
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.exotic-natural-scenery .image-container .newyork:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgb(194, 194, 194);
 }
