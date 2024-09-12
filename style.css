@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all .2s;
+}
+body{
+    background-image: url(./img/summerholidays1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+/* ---- NAVIGATION BAR ---- */
+
+
+.nav-bar{
+    position: relative;
+    display: flex;
+    background: linear-gradient(170deg,rgb(6, 11, 85),rgba(64, 59, 88, 0.671));
+    justify-content: space-between;
+    padding: 0px 10px 0px 0px;
+    align-items: center;
+}
+.nav-bar .logo{
+    position: relative;
+}
+
+.nav-bar ul{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #ffffffc5;
+}
+.nav-bar .home{
+    display: flex;
+    position: relative;
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-bar .home a{
+    color: #fffffffb;
+}
+
+.nav-bar .home:hover{
+    background: linear-gradient(160deg,rgb(0, 0, 119),rgba(90, 90, 105, 0.76));
+}
+.nav-bar .nav-bar-right-side ul{
+    display: flex;
+    position: relative;
+}
+.nav-bar .nav-bar-right-side .package{
+    position: relative;
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-bar .nav-bar-right-side .package:hover{
+    background: linear-gradient(160deg,rgb(0, 0, 119),rgba(90, 90, 105, 0.76));
+}
+.nav-bar .nav-bar-right-side .package i{
+    margin: 5px;
+}
+.nav-bar .nav-bar-right-side .destination{
+    position: relative;
+    width: 140px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-bar .nav-bar-right-side .destination:hover{
+    background: linear-gradient(160deg,rgb(0, 0, 119),rgba(90, 90, 105, 0.76));
+}
+.nav-bar .nav-bar-right-side .destination i{
+    margin: 5px;
+}
+.nav-bar .nav-bar-right-side .blog{
+    position: relative;
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-bar .nav-bar-right-side .blog:hover{
+    background: linear-gradient(160deg,rgb(0, 0, 119),rgba(90, 90, 105, 0.76));
+}
+.nav-bar .nav-bar-right-side .blog i{
+    margin: 5px;
+}
+.nav-bar .nav-bar-right-side .contact{
+    position: relative;
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-bar .nav-bar-right-side .contact:hover{
+    background: linear-gradient(160deg,rgb(0, 0, 119),rgba(90, 90, 105, 0.76));
+}
+.nav-bar .nav-bar-right-side .search{
+    position: relative;
+    margin: 20px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-bar .nav-bar-right-side .search a{
+    color: #fffffffb;
+}
+
+.nav-bar .nav-bar-right-side .search:hover{
+    background: linear-gradient(160deg,rgb(0, 0, 119),rgba(90, 90, 105, 0.76));
+}
+
+
+/* ---- TITLE ---- */
+
+
+.title{
+    font-size: 2.8rem;
+    width: max-content;
+}
+.title h1{
+    position: relative;
+    margin: 120px 90px;
+    color: #fff;
+}
+.title p{
+    font-size: 1.2rem;
+    position: relative;
+    margin: -70px 90px;
+    color: #ffffffbb;
+}
+
+
+/* ---- EXPLORE CONTAINER ---- */
+
+
+.explore-container{
+    width: 600px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 120px 85px;
+}
+.explore-container ul{
+    display: flex;
+    position: relative;
+    text-align: center;
+    list-style: none;
+    font-size: 1.1rem;
+    gap: 0 29px;
+}
+.explore-container a{
+    text-decoration: none;
+    color: #9B9B9B;
+}
+.explore-container ul input{
+    display: none;
+}
+.explore-container ul input:hover{
+    display: block;
+}
+.explore-container .location a{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.explore-container .location a:hover{
+    background-color: rgb(158, 158, 158);
+    color: #fff;
+}
+.explore-container .date a{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.explore-container .date a:hover{
+    background-color: rgb(158, 158, 158);
+    color: #fff;
+}
+.explore-container .people a{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.explore-container .people a:hover{
+    background-color: rgb(158, 158, 158);
+    color: #fff;
+}
+.explore-container .explore a{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.explore-container .explore a:hover{
+    background-color: rgb(39, 39, 39);
+}
+.explore-container .explore-container-comment{
+    display: flex;
+    position: absolute;
+    width: max-content;
+    bottom: -50px;
+    left: 90px;
+    font-size: 1.1rem;
+}
+.explore-container .explore-container-comment .popular-place{
+    color: #ECECEC;
+}
+.explore-container .explore-container-comment .countries{
+    color: #CFCFCF;
+}
+
+
+/* ---- EXOTIV NATURAL SCENERY ---- */
+
+
+.exotic-natural-scenery{
+    width: 90%;
+}
+.exotic-natural-scenery .exotic-natural-scenery-title{
+    width: max-content;
+}
+.exotic-natural-scenery .exotic-natural-scenery-title h1{
+    width: 570px;
+    margin: 250px 380px;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+.exotic-natural-scenery .exotic-natural-scenery-title p{
+    color: #878787;
+    margin: 0 380px;
+    text-align: center;
+}
+.exotic-natural-scenery .slide-arrows{
+    position: relative;
+}
+.exotic-natural-scenery .slide-arrows ul{
+    list-style: none;
+    display: flex;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+.exotic-natural-scenery .slide-arrows a{
+    text-decoration: none;
+}
+.exotic-natural-scenery .slide-arrows i{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    color: #737373;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px 1px rgb(223, 223, 223);
+}
+.exotic-natural-scenery .slide-arrows i:hover{
+    box-shadow: 0px 0px 5px 2px rgb(194, 194, 194);
+}
+.exotic-natural-scenery .image-container{
+    width: 90%;
+    margin: 50px 138px;
+}
+.exotic-natural-scenery .image-container ul{
+    display: flex;
+    list-style: none;
+}
+.exotic-natural-scenery .image-container a{
+    text-decoration: none;
+}
